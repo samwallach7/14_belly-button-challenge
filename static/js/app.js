@@ -1,15 +1,12 @@
 const url = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json";
 
 d3.json(url).then(function(data) {
-    // console.log(data);
 
     var names = data.names;
     var samples = data.samples;
     var metadata = data.metadata;
 
     console.log(samples);
-    // console.log("Sample Data: ", samples[0]);
-    // console.log("Metadata: ", metadata[0]);
 
     // Populate the dropdown menu with sample IDs
     var dropdown = document.getElementById("selDataset");
@@ -59,12 +56,12 @@ d3.json(url).then(function(data) {
         };
 
         var layout = {
-            title: 'Horizontal Bar Chart',
+            title: 'Sample Value Counts by OTU IDs',
             xaxis: {
                 title: 'Sample Values'
             },
             yaxis: {
-                title: 'OTU Labels'
+                title: 'OTU ID'
             }
         };
 
@@ -94,7 +91,7 @@ d3.json(url).then(function(data) {
         };
 
         var layout = {
-            title: 'Bubble Chart',
+            title: 'OTU ID Sample Values by Size',
             xaxis: {
                 title: 'OTU ID'
             },
