@@ -6,5 +6,8 @@ Attached please find the documents for the Module 12 Challenge:
   - The 'Static' -> 'js' folders which feature the app.js file, used for building the Dashboard code.
   - The Completed Dashboard (id940) screenshots which shows an image of the created Dashboard using the ititial ID in the list.
 
+In addition, below is the link to the Belly Button Dashboard.
+https://samwallach7.github.io/belly-button-challenge/
+
     Thank you!
     Sam Wallach
